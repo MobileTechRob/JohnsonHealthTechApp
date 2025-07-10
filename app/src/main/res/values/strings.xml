@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">emptyviewsactivity</string>
+    <string name="app_name">viewsactivity</string>
+
+    <string name="workout_name">Name</string>
+    <string name="equipment_name">Equipment</string>
+    <string name="difficulty_name">Difficulty</string>
+    <string name="duration_name">Duration</string>
+
 </resources>
