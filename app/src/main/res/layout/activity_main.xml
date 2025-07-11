@@ -17,8 +17,5 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:descendantFocusability="blocksDescendants"
-        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
-        android:layout_marginTop="192dp">
-
-    </ListView>
+        android:layout_marginTop="192dp"/>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

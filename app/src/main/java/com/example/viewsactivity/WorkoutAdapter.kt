@@ -18,11 +18,6 @@ class WorkoutAdapter(
 
         val workout = workouts[position]
 
-//        val workoutNameTextView = view.findViewById<TextView>(R.id.editTextWorkoutName)
-//        val equipmentTextView = view.findViewById<TextView>(R.id.editTextEquipment)
-//        val durationTextView = view.findViewById<TextView>(R.id.editTextDuration)
-//        val difficultyTextView = view.findViewById<TextView>(R.id.editTextDifficulty)
-
         val workoutNameTextView = view.findViewById<TextView>(R.id.labelWorkoutName)
         val equipmentTextView = view.findViewById<TextView>(R.id.labelEquipment)
         val durationTextView = view.findViewById<TextView>(R.id.labelDuration)

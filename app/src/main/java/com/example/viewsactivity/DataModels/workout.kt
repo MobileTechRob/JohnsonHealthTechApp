@@ -2,9 +2,9 @@
 package com.example.viewsactivity.datamodels
 
 data class Workout(
-    val name: String,
+    var name: String,
     val id: String,
-    val equipment: String,
-    val duration: Int,
-    val difficulty: String
+    var equipment: String,
+    var duration: Int,
+    var difficulty: String
 )
