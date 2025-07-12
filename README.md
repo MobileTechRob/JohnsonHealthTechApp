@@ -56,12 +56,10 @@ Please fill out the section below before submitting your solution.
 - Get a simple list view going with a simple list  .. show a sign of life for basic requirements 
 - Then  bring the json file and get deserialized 
 - Then start working on the layout.  At first I wanted a nice side by side 
-    Label: Text  approach but that was eating time i decided to got with 
-
-    - Label
-    - Text
-
-    -because the requirements said nothing pretty on the UI.
+    Label: Text  approach but that was eating time i decided to got with
+      - Label
+      - Text
+    - because the requirements said nothing pretty on the UI.
 - I then  switched to a scroll view that caused me grief in catching  the item  selected 
     setup initially see i switched back to  List view.  The ListView does scroll. Duh !
 -  Then i started building the second screen and used the same
@@ -72,16 +70,14 @@ Please fill out the section below before submitting your solution.
 - Once that completed,  i struggled with getting the call back to work.  I had save button but 
    then found the
    resultLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result : ActivityResult ->
-- When importing that i saw that there are two imports to choose from and research that and used correct one
-    ...androidx.
-- Then I introduced the Repository object and got that working.  I like the use of lambdas that i did. 
-- 
-- Once I got this far. My mind started absorbing more of what i just did.  
-- 
-- Once I got the core functionality going and cleaned up old code.. i looked at unit test and started 
+- When importing ActivityResult, i saw that there are two imports to choose from and research that and used correct one
+    ...androidx.   Once I got that working, then I started think about saving updates to the file a bit more.
+- Then I introduced the Repository object for a single source of storage across intents in the app. I got that working.  I like the use of lambdas that i did.
+- Once I got this far. My mind started absorbing more of what i just did.
+- Once I got the core functionality going and cleaned up old code.. I looked at unit test and started 
   finding ways to bring them in.  Coming from  the C# world where everything I build is an class object,
-  this way experience was differnet.
-- towards the end, the settings now perist
+  this way experience was different.
+- towards the end, I got the settings to perist.  I do like the way Android handles some file operations over .NET MAUI. 
 - there is an edit check for duration..can only be a number or else it can't be saved. My own special touch.
 
 
