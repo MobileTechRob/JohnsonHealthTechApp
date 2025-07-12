@@ -52,7 +52,7 @@ Please include tests for:
 Please fill out the section below before submitting your solution.
 
 ### What did you focus on and why?
-- Technology Spike (because it been 10 years since i looked at Android studio. i did have basis Kotlin project to work off out):
+- First Technology Spike (because it been 10 years since i looked at Android studio. i did have basis Kotlin project to work off out):
 - Get a simple list view going with a simple list   
 - Then  bring the json file and get deserialized 
 - Then start working on the layout.  At first I wanted a nice side by side 
@@ -63,7 +63,7 @@ Please fill out the section below before submitting your solution.
 
     because the requirements said nothing pretty on the UI.
 - I then  switched to a scroll view that caused me grief in catching  the item  selected 
-    setup initially see i switched back to  List view.  The ListView does scroll.
+    setup initially see i switched back to  List view.  The ListView does scroll. Duh !
 -  Then i started building the second screen and used the same
     Label
     EditText approach
@@ -78,6 +78,9 @@ Please fill out the section below before submitting your solution.
 - Once I got the core functionality going and cleaned up old code.. i looked at unit test and started 
   finding ways to bring them in.  Coming from  the C# world where everything I build is an class object,
   this way experience was differnet.
+- towards the end, the settings now perist
+- there is an edit check for duration..can only be a number or else it can't be saved
+- 
 
 ### What would you improve with more time?
 -  clean up the UI a little more
