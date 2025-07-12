@@ -53,7 +53,7 @@ Please fill out the section below before submitting your solution.
 
 ### What did you focus on and why?
 - First Technology Spike (because it been 10 years since i looked at Android studio. i did have basis Kotlin project to work off out):
-- Get a simple list view going with a simple list   
+- Get a simple list view going with a simple list  .. show a sign of life for basic requirements 
 - Then  bring the json file and get deserialized 
 - Then start working on the layout.  At first I wanted a nice side by side 
     Label: Text  approach but that was eating time i decided to got with 
@@ -75,12 +75,15 @@ Please fill out the section below before submitting your solution.
 - When importing that i saw that there are two imports to choose from and research that and used correct one
     ...androidx.
 - Then I introduced the Repository object and got that working.  I like the use of lambdas that i did. 
+- 
+- Once I got this far. My mind started absorbing more of what i just did.  
+- 
 - Once I got the core functionality going and cleaned up old code.. i looked at unit test and started 
   finding ways to bring them in.  Coming from  the C# world where everything I build is an class object,
   this way experience was differnet.
 - towards the end, the settings now perist
 - there is an edit check for duration..can only be a number or else it can't be saved
-- 
+
 
 ### What would you improve with more time?
 -  clean up the UI a little more
@@ -89,7 +92,9 @@ Please fill out the section below before submitting your solution.
 - I had kept it in the back of my mind but coming MSTest world, everything is different in Android Studio.
 - I found a way to separate out the update logic back to the database and the parsiing of the file into objects.
 
----
+### Time Spent
+   I put in more than the 4-6 hours because i really wanted to prove myself to produce an app to your basic requirements.
+   I had a barely functional app at 6 hours. 
 
 ## 📁 Provided Files
 
