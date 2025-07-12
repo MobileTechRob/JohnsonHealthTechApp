@@ -9,7 +9,16 @@ fun deserialIntoObjectList(workouts:String):MutableList<Workout>
 {
     val gson = Gson()
     var listWorkoutType = object : TypeToken<MutableList<Workout>>() {}.type
-    workoutList = gson.fromJson(workouts, listWorkoutType)
+
+    try {
+        workoutList = gson.fromJson(workouts, listWorkoutType)
+    }
+    catch (e:Exception)
+    {
+        e.printStackTrace()
+
+    }
+
 
     return workoutList
 }
