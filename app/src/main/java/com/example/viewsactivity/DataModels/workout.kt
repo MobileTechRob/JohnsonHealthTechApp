@@ -2,8 +2,8 @@
 package com.example.viewsactivity.datamodels
 
 data class Workout(
-    var name: String,
     val id: String,
+    var name: String,
     var equipment: String,
     var duration: Int,
     var difficulty: String
