@@ -111,20 +111,19 @@ I did check everything into Git.
 - I have a zip file on my drop box account that has a zip file.
 - https://www.dropbox.com/home/JohnsonHealthTech/local.zip
 
-- I did grant Maya access to it as hers is the main contact email.
+- I did grant Maya access to my my drop box account as hers is the main contact email.
 - I did test that local.zip file on my local machine.
 
-- I have a directory C:\ApplicationRnD\AndroidJavaApps\AManualCopyOfJohnsonHealthApp and put the local.zip file.
+- I have a directory C:\ApplicationRnD\AndroidJavaApps\AManualCopyOfJohnsonHealthApp and put the local.zip file there
 - When it went to extract it, I made sure C:\ApplicationRnD\AndroidJavaApps\AManualCopyOfJohnsonHealthApp was the root folder.
 
-- Once extracted, I opened the folder with Android Studio.  
+- Once extracted, I opened that folder with Android Studio.  
 - I did have to do a Invalidate Cache
 - checked Clear file system cache and Local History
 - checked Clear VCS Log caches and indexes
 - Clicked the Invalidate and Restart.
 
 - I was able to run the solution and have the app run on my phone.
-
 
 
 ## 🚀 Submission Instructions
