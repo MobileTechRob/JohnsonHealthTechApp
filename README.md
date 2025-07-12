@@ -58,15 +58,15 @@ Please fill out the section below before submitting your solution.
 - Then start working on the layout.  At first I wanted a nice side by side 
     Label: Text  approach but that was eating time i decided to got with 
 
-    Label
-    Text
+    - Label
+    - Text
 
-    because the requirements said nothing pretty on the UI.
+    -because the requirements said nothing pretty on the UI.
 - I then  switched to a scroll view that caused me grief in catching  the item  selected 
     setup initially see i switched back to  List view.  The ListView does scroll. Duh !
 -  Then i started building the second screen and used the same
-    Label
-    EditText approach
+   - Label
+   - EditText approach
 -  I build the Edit Workout screen on label and one value at a time to make sure for methodical 
     testing.
 - Once that completed,  i struggled with getting the call back to work.  I had save button but 
