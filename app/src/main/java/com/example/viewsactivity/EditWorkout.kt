@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class EditWorkout : AppCompatActivity()
@@ -49,14 +50,29 @@ class EditWorkout : AppCompatActivity()
         val duration = durationEditText.text.toString()
         val difficulty = difficultyEditText.text.toString()
 
-        resultIntent.putExtra("WorkoutId", workoutId)
-        resultIntent.putExtra("WorkoutName",  workoutName)
-        resultIntent.putExtra("Equipment", equipment)
-        resultIntent.putExtra("Duration", duration)
-        resultIntent.putExtra("Difficulty", difficulty)
+        var validate=true;
 
-        setResult(Activity.RESULT_OK, resultIntent)
-        finish() // Closes SecondActivity and returns to MainActivity
+        try {
+            duration.toInt()
+        }
+        catch (e: NumberFormatException)
+        {
+            validate=false
+        }
+
+        if (validate == true)
+        {
+            resultIntent.putExtra("WorkoutId", workoutId)
+            resultIntent.putExtra("WorkoutName",  workoutName)
+            resultIntent.putExtra("Equipment", equipment)
+            resultIntent.putExtra("Duration", duration)
+            resultIntent.putExtra("Difficulty", difficulty)
+
+            setResult(Activity.RESULT_OK, resultIntent)
+            finish() // Closes SecondActivity and returns to MainActivity
+        }
+        else
+            Toast.makeText(this,"Duration must be a number", Toast.LENGTH_SHORT).show()
     }
 
     override fun onSaveInstanceState(outState: Bundle)
