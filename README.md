@@ -82,7 +82,7 @@ Please fill out the section below before submitting your solution.
   finding ways to bring them in.  Coming from  the C# world where everything I build is an class object,
   this way experience was differnet.
 - towards the end, the settings now perist
-- there is an edit check for duration..can only be a number or else it can't be saved
+- there is an edit check for duration..can only be a number or else it can't be saved. My own special touch.
 
 
 ### What would you improve with more time?
